@@ -1,0 +1,30 @@
+.title {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(95, 98, 233);
+    font-size: 25px;
+}
+
+p{
+    font-size: 20px;
+}
+
+p.solid {
+    border-style: solid;
+    border-width: medium;
+}
+/* Top left text */
+.top-left {
+    position: absolute;  
+    font-size: 15px;
+  }
+  
+    top: 50px;
+    left: 70px;
+  }
+  body{
+  
