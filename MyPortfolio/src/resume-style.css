@@ -1,0 +1,69 @@
+.title {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(95, 98, 233);
+}
+
+p{
+    font-size: 20px;
+}
+
+p.solid {
+    border-style: solid;
+    border-width: medium;
+}
+/* Top left text */
+.top-left {
+    position: absolute;  
+    font-size: 15px;
+  }
+  
+    
+
+  
+img{
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  font-size: 10px;
+  text-align: center;
+}
+
+body {
+    background-image: url("../Resume background.jpg");
+  }
+
+
+img{
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  font-size: 0px;
+}
+ 
+
+/* Extra Small and up (Portrait Phones) */
+
+/* Small and up (Landscape Phones) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium and up (Tablets) */
+@media (min-width: 768px) {
+
+}
+
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra Large and up (Wide Screen Desktops) */
+@media (min-width: 1200px) {
+
+}
