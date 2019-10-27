@@ -111,3 +111,49 @@ body {
     margin: 10% 20%;
 }
   }
+
+
+  @media(max-width: 768px){
+    main {
+      height: 90%;
+      width: 90%;
+      display: grid;
+      grid-template-columns: 20% 30% 40%;
+
+
+      .logo {
+        width: 100px;
+        height: 100px;
+        margin: 10% 20%;}
+
+        has-border {
+          border-radius: 10px;
+          border: 1px solid #0795C3;
+          background: none;
+          padding: 9px; }
+
+          
+.has-border {
+  border-radius: 200px;
+  border: 2px solid #0795C3;
+  background: none;
+  padding: 30px; }
+
+
+    header {display: grid;
+      grid-template-columns: 30% 40%;
+      width: 100%; }
+
+      .has-border {
+        border-radius: 3px;
+        border-width: 3px;
+        border-style: solid;
+        border-color: rgb(7, 149, 195);
+        border-image: initial;
+        background: none;
+        padding: 20px; }
+      
+    }
+  }
+
+ 
