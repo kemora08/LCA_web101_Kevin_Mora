@@ -1,0 +1,10 @@
+body, html {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto 27% 27% 27% ;
+    grid-template-rows: ;
+}
