@@ -46,7 +46,7 @@ header {
 
 
   @media (min-width: 768px) {
-    .container(
+    .container ;
     display: grid;
     grid-template-columns: 10%, 65% 25%;
 
