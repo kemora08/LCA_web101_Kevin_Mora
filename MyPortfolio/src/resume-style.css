@@ -4,13 +4,6 @@
     text-align: center;
 }
 
-body {
-    background-color: rgb(95, 98, 233);
-<<<<<<< HEAD
-=======
-    font-size: 25px;
->>>>>>> 35a34e01ee57d5bda3bdf7e7421f7236d897a0c6
-}
 
 p{
     font-size: 20px;
@@ -26,26 +19,41 @@ p.solid {
     font-size: 15px;
   }
   
-<<<<<<< HEAD
-    
 
-  
+  body {
+    background-color: lightblue;
+    
+     }
+
+
+    
 img{
-  width: 40px;
-  height: 40px;
+  width: 200px;
+  height: 200px;
   background-color: white;
   font-size: 10px;
   text-align: center;
 }
 
-body {
-    background-image: url("../Resume background.jpg");
-  }
+body{
+  background-image: url("Resume Background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%; 100%;
+
+}
+
+
 
 
 img{
-  width: 80px;
+  width: 80px
   height: 80px;
+}
+
+img{
+  width: 100px;
+  height: 100px;
   text-align: center;
   font-size: 0px;
 }
@@ -77,5 +85,7 @@ img{
     left: 70px;
   }
   body{
+
+  }
   
->>>>>>> 35a34e01ee57d5bda3bdf7e7421f7236d897a0c6
+
