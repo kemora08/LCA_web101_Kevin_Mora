@@ -1,0 +1,197 @@
+container {
+    display: grid; /* Using the grid */
+    grid-template-areas: /* Notice how I've stacked my areas, just like they look on the page! */
+      "header header header"
+      "nav article ads"
+      "main"
+      "aside"
+      "banner"
+      "footer footer footer";
+  }
+
+
+  .grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+  }
+
+  html {
+    color: white;
+}
+
+
+  .item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+header {
+    grid-area: header;
+  }
+  main {
+    grid-area: main;
+  }
+  nav {
+    grid-area: nav;
+  }
+  aside {
+    grid-area: aside;
+  }
+  .banner {
+    grid-area: banner;
+  }
+  footer {
+    grid-area: footer;
+  }
+  .something (
+      grid-area: newgridarea;
+
+  )
+
+
+  @media (min-width: 768px) {
+    .container ;
+    display: grid;
+    grid-template-columns: 10%, 65% 25%;
+
+    )
+      display: grid;
+      grid-template-columns: 20% 1fr 15%; /* the first column is 1 unit (fraction), the second column is 3 units */
+      grid-template-areas:
+      "header header header"
+      "nav article ads"
+      "footer footer footer";
+    grid-template-rows: 80px 1fr 70px;  
+    grid-template-columns: 20% 1fr 15%;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    height: 100vh;
+    margin: 0;
+    }  
+
+
+        .card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 6px 8px 0 rgba(10,20,45,5.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+
+body{
+  background-image: url("Dashboard Background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%; 100%;
+  background-color: gray;
+
+  
+}
+
+body{
+  background-image: url("Dashboard Background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size;:100%, 100%;
+}
+
+
+.title {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+element.style {
+  width: 40%;
+}
+
+
+element.style {
+  width: 80%;
+}
+
+
+p {
+  line-height: 60px;
+
+p{
+  font-size: 40px;
+}
+
+p.solid {
+  border-style: solid;
+  border-width: medium;
+}
+/* Top left text */
+.top-left {
+  position: absolute;  
+  font-size: 15px;
+}
+
+
+body {
+  color: rgb(16, 39, 168);
+}
+
+h1 {
+  color: rgb(241, 10, 10);
+}
+
+
+#calc-contain{
+  position: relative;
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 12px;
+  margin: 0px auto;
+  padding: 20px 20px 100px 20px;
+}
+#agh{
+  position: relative;
+  float: right;
+  margin-top: 15px;
+}
+#agh p{
+  font-size: 20px;
+  font-weight: 900;
+}
+input[type=button] {
+  background: Gray;
+  width: 20%;
+  font-size: 20px;
+  font-weight: 900;
+  border-radius: 7px;
+  margin-left: 13px;
+  margin-top: 10px;
+}
+input[type=button]:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+input[type=button]:hover {
+  background-color: #003300;
+  color: white;
+}
+
+input[type = text] {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 5px auto;
+  font-size: 50px;
+  padding: 10px;
+  box-shadow: 4px 0px 12px black inset;
+}
+
+
