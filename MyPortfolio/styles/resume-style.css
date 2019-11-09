@@ -6,10 +6,8 @@
 
 body {
     background-color: rgb(95, 98, 233);
-<<<<<<< HEAD
-=======
     font-size: 25px;
->>>>>>> 35a34e01ee57d5bda3bdf7e7421f7236d897a0c6
+
 }
 
 p{
@@ -26,7 +24,7 @@ p.solid {
     font-size: 15px;
   }
   
-<<<<<<< HEAD
+
     
 
   
@@ -39,7 +37,7 @@ img{
 }
 
 body {
-    background-image: url("../Resume background.jpg");
+    background-image: url("../images/Resume\ background.jpg");
   }
 
 
@@ -72,10 +70,10 @@ img{
 @media (min-width: 1200px) {
 
 }
-=======
+
     top: 50px;
     left: 70px;
   }
   body{
   
->>>>>>> 35a34e01ee57d5bda3bdf7e7421f7236d897a0c6
+
