@@ -121,10 +121,11 @@ body {
       grid-template-columns: 20% 30% 40%;
 
 
-      .logo {
-        width: 100px;
-        height: 100px;
-        margin: 10% 20%;}
+        .logo {
+          width: 60%;
+          height: 900%;
+          margin: 3% 10%;
+      }
 
         has-border {
           border-radius: 10px;

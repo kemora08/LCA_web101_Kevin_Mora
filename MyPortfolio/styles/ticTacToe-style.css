@@ -1,0 +1,96 @@
+body{
+    background-image: url("../images/ticTacToe background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-color: lightgray ;
+  }
+  
+h1{
+text-align: center;
+color: green;
+}
+
+.clearfix{
+clear: both;
+}
+
+#box{
+width: 350px;
+overflow: auto;
+margin: 40px auto;
+background:lightgreen;
+padding-bottom: 40px;
+border-radius: 10px;
+text-align: center;
+}
+
+#message{
+background: #333;
+color: #fff;
+}
+#gameBoard li{
+float: left;
+margin: 10px;
+height: 70px;
+width: 70px;
+font-size: 50px;
+background:green;
+color: #ccc;
+list-style: none;
+text-align: center;
+border-radius: 5px;
+}
+
+#gameBoard li:hover, #reset:hover{
+cursor: pointer;
+background: #000;
+}
+
+#reset{
+  border: 0;
+  background: rgb(22, 236, 32);
+  color: #fff;
+  width: 70%;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.o{
+color: blue !important;
+}
+
+.x{
+color: rgb(29, 248, 146) !important;
+}
+
+footer{
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+
+button {
+  -webkit-appearance: button;
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: buttontext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  background-color: buttonface;
+  box-sizing: border-box;
+  margin: 0em;
+  font: 700 16.6666px Arial;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonface;
+  border-image: initial;
+}
