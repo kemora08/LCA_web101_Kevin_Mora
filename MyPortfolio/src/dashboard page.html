@@ -16,20 +16,21 @@
 
    <p><img src="../images/Kevin about me.jpg" alt="Smiley face" width="42" height="42"></p>
 
+  
+  
+
   </head>
   <nav>
-      <a class="has-border animated rotateInUpLeft delay-1s" href="http://127.0.0.1:5501/MyPortfolio/src/resume.html">Resume</a>
-      <a class="has-border animated rotateInUpLeft delay-2s" href="http://127.0.0.1:5501/MyPortfolio/src/about%20me.html">About Me</a>
-      <a class="has-border animated rotateInUPLeft delay-3s" href="http://127.0.0.1:5501/MyPortfolio/src/blog.html">My Blog</a>
-      <a class="has-border animated rotateInUpLeft delay-4s" href="http://127.0.0.1:5501/MyPortfolio/src/contact%20me.html">Contact Me</a>
+      <a class="has-border animated rotateInUpLeft delay-1s" href="http://127.0.0.1:5502/MyPortfolio/src/resume.html">Resume</a>
+      <a class="has-border animated rotateInUpLeft delay-2s" href="http://127.0.0.1:5502/MyPortfolio/src/about%20me.html">About Me</a>
+      <a class="has-border animated rotateInUPLeft delay-3s" href="http://127.0.0.1:5502/MyPortfolio/src/blog.html">My Blog</a>
+      <a class="has-border animated rotateInUpLeft delay-4s" href="http://127.0.0.1:5502/MyPortfolio/src/contact%20me.html">Contact Me</a>
+      <a class="has-border animated rotateInUpLeft delay-5s" href="http://127.0.0.1:5502/MyPortfolio/src/dashboard.html">Dashboard</a>
+      <a class="has-border animated rotateInUpLeft delay-6s" href="http://127.0.0.1:5502/MyPortfolio/src/moving-squares.html">moving-squares</a>
   </nav>
   <body>
   
-  
  
-
-
-    
     <form action="/action_page.php">
     Name: <input type="Name" name="Name">
     <input type="submit">
@@ -86,8 +87,9 @@
 
        <div>   
             <a href="../index.html"><img src="../images/Web Development.jpg" id="profile-pic" class="logo animated fadeOut delay-2s" alt="fake logo"></a>
-       </div>       
-
+       </div> 
+       
+      
        <body>
           <div class="card">
             <img src="../images/cards.jpg" alt="Greetings" style="width:20%">
@@ -178,6 +180,46 @@
   </div>
 </body>
 </html>
+
+
+<style> 
+  .gfg { 
+      font-size:40px; 
+      font-weight:bold; 
+      color:#009900; 
+      margin-left:50px; 
+  } 
+  .geeks { 
+      margin-left:150px; 
+  } 
+  p { 
+      font-size:20px; 
+      margin-left:20px; 
+  } 
+</style> 
+</head> 
+
+ 
+<button class = "https://www.latlong.net/c/?lat=33.641630&long=-101.830300" onclick="getlocation()">Click to find Location</button>
+<div class = "https://www.latlong.net/c/?lat=33.641630&long=-101.830300">Finding Me</div> 
+<p>Displaying location using Latitude and Longitude</p>
+<a href="https://www.latlong.net/c/?lat=33.641630&long=-101.830300" target="_blank">(33.641630, -101.830300)</a>
+ 
+<p id="demo1"></p> 
+<script> 
+var variable1 = document.getElementById("demo1"); 
+function getlocation(){ 
+      navigator.geolocation.getCurrentPosition(showLoc); 
+} 
+function showLoc(pos){ 
+      variable1.innerHTML = "Latitude:33.641630" + pos.coords.latitude +  
+      "<br>Longitude:101.830300" + pos.coords.longitude;  
+  } 
+</script>
+
+
+
+
 
 <h1>Kevin Mora</h1>
 <h2>Student of Web Developement</h2>
@@ -324,6 +366,9 @@
         <br>
 
 
+        
+        
+
     <address>
             <a href="mora:kevin_mora89@hotmail.com"></a>.<br> 
             Contact me at:<br>
@@ -333,4 +378,3 @@
             </address>
 </body>
 </html>
-
